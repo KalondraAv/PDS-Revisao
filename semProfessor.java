@@ -1,35 +1,18 @@
-class Aluno {
-    private int numero;
-    private String nome;
-    private double[] notas;
+/**SEMINÁRIO POO - 4° BIMESTRE/2025**/
+public class professor {
+    private String nomeP; 
+    private int numeroP;
     
-    public Aluno(String nome, int numero) {
-        this.nome = nome;
-        this.numero = numero;
-        this.notas = new double[4]; // 4 disciplinas
+    public professor(String nomeP, int numeroP) {
+        this.nomeP = nomeP;
+        this.numeroP = numeroP;
     }
     
-    public int getNumero() {
-        return numero;
+    public int getNumeroP() {
+        return numeroP;
     }
 
-    public String getNome() {
-        return nome;
-    }
-    
-    public double[] getNotas() {
-        return notas;
-    }
-    
-    public void setNotas(double[] notas) {
-        this.notas = notas;
-    }
-    
-    public double calcularMedia() {
-        double soma = 0;
-        for (double nota : notas) {
-            soma += nota;
-        }
-        return notas.length > 0 ? soma / notas.length : 0;
+    public String getNomeP() {
+        return nomeP;
     }
 }
