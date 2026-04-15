@@ -2,8 +2,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-
-public class principal {
+/** Seminário de POO - 4° BIMESTRE/2025 **/
+public class Principal {
     private static List<Aluno> alunos = new ArrayList<>();
     private static List<Professor> professores = new ArrayList<>();
     private static List<Terceirizado> terceirizados = new ArrayList<>();
